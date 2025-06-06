@@ -1,0 +1,45 @@
+.welcome-container {
+  text-align: center;
+  padding: 3rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.highlight {
+  color: #007bff;
+}
+
+.button-group {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-user {
+  background-color: #0069d9;
+  color: white;
+}
+
+.btn-admin {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-shop {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
