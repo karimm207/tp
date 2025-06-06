@@ -22,7 +22,7 @@ export default function AdminLogin() {
     if (username === adminCredentials.username && password === adminCredentials.password) {
       // Stockage en sessionStorage
       sessionStorage.setItem("adminUser", JSON.stringify({ username }));
-      navigate("/"); // Rediriger vers la page d'accueil ou admin
+      navigate("/admin"); // Rediriger vers la page d'accueil ou admin
     } else {
       setError("Identifiants admin incorrects");
     }
